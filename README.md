@@ -9,7 +9,6 @@ This repository contains complete solutions for **Android Assignment Set 2** wit
 1. **🧩 N-Queens Algorithm** - Classic backtracking problem
 2. **🎆 OpenGL Particle System** - GPU-accelerated graphics programming  
 3. **🌤️ WeatherTrack Android App** - Complete MVVM architecture app
-4. **📱 Mobile Development** - Advanced Android features
 
 ## 🗂️ **Repository Structure**
 
@@ -40,9 +39,9 @@ This repository contains complete solutions for **Android Assignment Set 2** wit
 
 ### **Question 1: N-Queens Algorithm** 🧩
 **Problem**: Implement the classic N-Queens puzzle using backtracking
-- ✅ **Language**: C++ with `using namespace std;`
+- ✅ **Language**: C++ 
 - ✅ **Approach**: Backtracking algorithm with optimization
-- ✅ **Features**: Compact, readable code without comments
+- ✅ **Features**: Compact and readable
 - ✅ **Performance**: Handles N=8 (92 solutions) efficiently
 
 **[📖 View Question 1 Details →](question1/README.md)**
@@ -95,6 +94,18 @@ sudo pacman -S gcc glfw-x11 glew glm  # Arch Linux
 # OR
 sudo apt-get install build-essential libglfw3-dev libglew-dev libglm-dev  # Ubuntu
 
+# Windows
+# Use MSYS2 (recommended) or install libraries manually
+
+# Option 1: MSYS2 (https://www.msys2.org/)
+# After installing MSYS2, open the MSYS2 MinGW terminal and run:
+pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-glfw mingw-w64-x86_64-glew mingw-w64-x86_64-glm
+
+# Option 2: Manual setup
+# - Install MinGW or Visual Studio (with Desktop development with C++)
+# - Download GLFW, GLEW, and GLM from their official sites
+# - Set up include/lib paths in your IDE or Makefile/CMake
+
 # For Android project (Question 4)
 # Install Android Studio with SDK API 24+
 ```
@@ -103,7 +114,7 @@ sudo apt-get install build-essential libglfw3-dev libglew-dev libglm-dev  # Ubun
 ```bash
 # Question 1: N-Queens
 cd question1
-make && ./nqueens
+./nqueens
 
 # Question 3: OpenGL Particle System  
 cd question3
@@ -187,7 +198,7 @@ This repository represents completed assignment solutions. For educational purpo
 
 ## 📄 **License**
 
-This project is created for educational purposes as part of Android Assignment Set 2.
+This project is created for educational purposes as part of Android Assignment Set 2 for Flamm.
 
 ## 📞 **Contact**
 
