@@ -15,8 +15,8 @@ The N-Queens puzzle is the problem of placing N chess queens on an N×N chessboa
 - ✅ **Complete Solutions**: Finds all possible arrangements
 
 ### **Code Quality**
-- ✅ **Modern C++17**: Using `using namespace std;` for clean syntax
-- ✅ **Compact Code**: Readable implementation without excessive comments
+- ✅ **Modern C++17**: Fast and close to hardware
+- ✅ **Compact Code**: Readable implementation 
 - ✅ **STL Containers**: Efficient use of `vector<string>` for board representation
 - ✅ **Performance**: Optimized for speed and memory usage
 
@@ -36,7 +36,7 @@ sudo apt-get install build-essential  # Ubuntu
 cd question1
 
 # Build
-make
+g++ nqeens
 
 # Run
 ./nqueens
@@ -170,8 +170,6 @@ for (int i = 0; i < row; i++) {
 ```
 question1/
 ├── nqueens_solution.cpp      # Main implementation
-├── test_particle_system.cpp  # Testing utilities  
-├── Makefile                  # Build configuration
 └── README.md                 # This documentation
 ```
 
@@ -208,7 +206,6 @@ vector<vector<string>> result8 = solution.solveNQueens(8);
 ## 🎨 **Code Style**
 
 ### **Modern C++ Features**
-- ✅ **using namespace std**: Clean, readable syntax
 - ✅ **STL Containers**: `vector<string>` for board representation
 - ✅ **Range-based loops**: Modern iteration patterns
 - ✅ **Auto keyword**: Type inference where appropriate
