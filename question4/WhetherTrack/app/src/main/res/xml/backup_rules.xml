@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Exclude database files from backup -->
+    <exclude domain="database" path="weather_database" />
+    <exclude domain="database" path="weather_database-shm" />
+    <exclude domain="database" path="weather_database-wal" />
+</full-backup-content>

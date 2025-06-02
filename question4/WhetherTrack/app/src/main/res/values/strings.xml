@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherTrack</string>
+    
+    <!-- Navigation -->
+    <string name="nav_weather">Weather</string>
+    <string name="nav_weekly_stats">Weekly Stats</string>
+    
+    <!-- Weather Fragment -->
+    <string name="city_hint">City Name</string>
+    <string name="set_city">Set City</string>
+    <string name="refresh_now">Refresh Now</string>
+    <string name="manual_sync">Manual Sync</string>
+    <string name="temperature_format">%.1f°F</string>
+    <string name="humidity_format">%d%%</string>
+    <string name="last_updated_format">Last updated: %s</string>
+    
+    <!-- Weekly Stats Fragment -->
+    <string name="weekly_weather_stats">Weekly Weather Stats</string>
+    <string name="refresh">Refresh</string>
+    <string name="recent_weather_records">Recent Weather Records</string>
+    <string name="no_data_message">No weather data available.\nTry refreshing to fetch some data!</string>
+    <string name="temperature_trends_chart">Temperature Trends (Past 7 Days)</string>
+    
+    <!-- Error Messages -->
+    <string name="error_no_internet">No internet connection available</string>
+    <string name="error_api_failure">Failed to fetch weather data</string>
+    <string name="error_database">Database error occurred</string>
+    <string name="error_generic">An error occurred. Please try again.</string>
+    
+    <!-- Status Messages -->
+    <string name="status_fetching">Fetching weather data…</string>
+    <string name="status_success">Weather updated successfully</string>
+    <string name="status_sync_initiated">Manual sync initiated…</string>
+    
+    <!-- Validation Messages -->
+    <string name="validation_empty_city">Please enter a city name</string>
+    <string name="validation_city_set">City set to: %s</string>
+</resources>
